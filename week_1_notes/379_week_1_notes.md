@@ -37,7 +37,7 @@ layout: md
 
 ### CEH Hacking Methodology (CHM)
 
-![[Pasted image 20240714234824.png]]
+![CHM](Pasted image 20240714234824.png)
 
 - **Footprinting**
 	- Gain extensive information about the target prior to the attack.
@@ -62,12 +62,12 @@ layout: md
 		- Banners
 	- Involves making active connections to a target system or subjecting it to direct queries.
 
-- **Vulnerability Analysis
+- **Vulnerability Analysis**
 	- Scrutinising the system or service and assessing its security measures to determine its resilience to types of attacks.
 	- Discover security weaknesses and gaps in a target network, infrastructure or endpoints. 
 	- List out potential entry points for attacks/attackers.\
 
--**Gaining Access:**
+- **Gaining Access:**
 	- The attack/hacking phase. 
 	- Use the information collected in previous steps and use techniques, from 2 categories; *password cracking* and/or *vulnerability exploitation*, to access the target system.
 	- Success dependent on many variables:
@@ -147,9 +147,9 @@ Knowledge base of adversary tactics and techniques based on real-world observati
 
 ### Mandiant Attack Lifecycle
 
-Kill chain model in which the weaponization stage is removed and a loop is introduced to represent the continuous activities of internal recon, lateral movement and persistence performed by attacks. 
-![[Pasted image 20240715213722.png]]
+![Mandiant Attack Lifecycle](Pasted image 20240715213722.png)
 
+Kill chain model in which the weaponization stage is removed and a loop is introduced to represent the continuous activities of internal recon, lateral movement and persistence performed by attacks. 
 
 ### Diamond Model of Intrusion Analysis
 
