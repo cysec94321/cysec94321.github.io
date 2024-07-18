@@ -69,7 +69,7 @@ layout: md
 	- Discover security weaknesses and gaps in a target network, infrastructure or endpoints. 
 	- List out potential entry points for attacks/attackers.\
 
-- ##### Gaining Access:
+-**Gaining Access:**
 	- The attack/hacking phase. 
 	- Use the information collected in previous steps and use techniques, from 2 categories; *password cracking* and/or *vulnerability exploitation*, to access the target system.
 	- Success dependent on many variables:
@@ -83,16 +83,16 @@ layout: md
 	- Allows undertaking of secondary operations.
 
 - **Maintaining Access:**
-	- ##### Executing Applications:
+	- **Executing Applications:**
 		- Once admin privileges are achieved.
 		- Install malware (trojans, backdoors, rootkits, keyloggers, etc.)
 		- Achieve persistence and remote system access.
 
-	- ##### Hiding Files:
+	- **Hiding Files:**
 		- Attempt to hide evidence of malware to ensure persistence.
 
 - **Clearing Logs:** 
-	- ##### Covering Tracks:
+	- **Covering Tracks:**
 		- To remain undetected, attackers can erase all evidence of the breach and system compromise.
 		- Limits evidence gathering, makes harder to identify/track malicious behaviour or the threat actor.
 		- Can modify or delete logs within the system. (Manually or with log-wiping utilities).
@@ -124,6 +124,7 @@ The model identifies what the adversaries must complete in order to achieve thei
 
 ### MITRE ATT&CK Framework
 Knowledge base of adversary tactics and techniques based on real-world observations of cyber attacks.
+
 **ATT&CK:** Adversarial Tactics, Techniques, and Common Knowledge.
 
 **Attack Tactic:**
