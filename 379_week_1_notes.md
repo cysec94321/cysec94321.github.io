@@ -5,8 +5,6 @@ layout: default
 
 *SIT379 - Ethical Hacking*
 
----
-
 ### Ciphers
 
 **ROT13**
@@ -61,7 +59,7 @@ layout: default
 		- Banners
 	- Involves making active connections to a target system or subjecting it to direct queries.
 	
-- **Vulnerability Analysis
+- **Vulnerability Analysis**
 	- Scrutinising the system or service and assessing its security measures to determine its resilience to types of attacks.
 	- Discover security weaknesses and gaps in a target network, infrastructure or endpoints. 
 	- List out potential entry points for attacks/attackers.\
