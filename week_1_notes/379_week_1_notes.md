@@ -24,6 +24,7 @@ layout: md
 	- Confidentiality
 	- Integrity
 	- Availability
+	
 **Privacy**
 - Data protection regulations
 - Consent
@@ -37,7 +38,7 @@ layout: md
 
 #### CEH Hacking Methodology (CHM)
 
-![[Pasted image 20240714234824.png]]
+![CHM](Pasted image 20240714234824.png)
 
 - **Footprinting**
 	- Gain extensive information about the target prior to the attack.
@@ -65,7 +66,7 @@ layout: md
 - **Vulnerability Analysis**
 	- Scrutinising the system or service and assessing its security measures to determine its resilience to types of attacks.
 	- Discover security weaknesses and gaps in a target network, infrastructure or endpoints. 
-	- List out potential entry points for attacks/attackers.\
+	- List out potential entry points for attacks/attackers.
 	
 - ##### Gaining Access:
 	- The attack/hacking phase. 
@@ -122,7 +123,9 @@ The model identifies what the adversaries must complete in order to achieve thei
 
 #### MITRE ATT&CK Framework
 Knowledge base of adversary tactics and techniques based on real-world observations of cyber attacks.
+
 **ATT&CK:** Adversarial Tactics, Techniques, and Common Knowledge.
+
 ##### Attack Tactic:
 - Why an attack technique is used.
 - The attackers tactical goal.
@@ -142,10 +145,9 @@ Knowledge base of adversary tactics and techniques based on real-world observati
 - E.g.. *An adversary using PowerShell to inject into lsass.exe to dump credentials by scraping LSASS memory on a victim*
 
 #### Mandiant Attack Lifecycle
-
 Kill chain model in which the weaponization stage is removed and a loop is introduced to represent the continuous activities of internal recon, lateral movement and persistence performed by attacks. 
 
-![Mandiant Attack Lifecycle] (Pasted image 20240714234824.png)
+![Mandiant Attack Lifecycle](Pasted image 20240714234824.png)
 
 #### Diamond Model of Intrusion Analysis
 
