@@ -4,6 +4,9 @@ layout: md
 ---
 
 *SIT379 - Ethical Hacking*
+---
+
+## Week 1 Notes: 
 
 ### Ciphers
 
