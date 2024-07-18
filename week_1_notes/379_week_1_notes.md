@@ -144,10 +144,13 @@ Knowledge base of adversary tactics and techniques based on real-world observati
 - The specific implementation the adversary uses for techniques or sub-techniques.
 - E.g.. *An adversary using PowerShell to inject into lsass.exe to dump credentials by scraping LSASS memory on a victim*
 
-#### Mandiant Attack Lifecycle
-Kill chain model in which the weaponization stage is removed and a loop is introduced to represent the continuous activities of internal recon, lateral movement and persistence performed by attacks. 
+#### Mandiant Attack Lifecycle:
 
 ![Mandiant Attack Lifecycle](Pasted image 20240714234824.png)
+
+Kill chain model in which the weaponization stage is removed and a loop is introduced to represent the continuous activities of internal recon, lateral movement and persistence performed by attacks. 
+
+
 
 #### Diamond Model of Intrusion Analysis
 
