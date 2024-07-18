@@ -1,11 +1,13 @@
 ---
+
 title: Week 1 Notes
 layout: md
+
 ---
 
-*SIT379 - Ethical Hacking*
+*SIT379 Ethical Hacking*
 
-## Week 1 Notes: 
+# Week 1:
 
 ### Ciphers
 
@@ -23,7 +25,7 @@ layout: md
 	- Confidentiality
 	- Integrity
 	- Availability
-	
+
 **Privacy**
 - Data protection regulations
 - Consent
@@ -33,11 +35,11 @@ layout: md
 - Exploiting system vulnerabilities and compromising security controls to obtain unauthorised or inappropriate access to a system's resources.
 - Modifying systems or data to accomplish objectives beyond their original purpose. It may involve activities aimed at unauthorised access to, theft of, or redistribution of intellectual property, consequently resulting in financial losses for businesses.
 
-### Hacking Frameworks:
+## Hacking Frameworks:
 
-#### CEH Hacking Methodology (CHM)
+### CEH Hacking Methodology (CHM)
 
-![CHM](Pasted image 20240714234824.png)
+![[Pasted image 20240714234824.png]]
 
 - **Footprinting**
 	- Gain extensive information about the target prior to the attack.
@@ -45,12 +47,12 @@ layout: md
 		- IP ranges
 		- Namespaces
 		- Employee Information
-		
+
 - **Scanning**
-- Extension of recon/footprinting
-	- Identify active hosts
-	- Identify open ports
-	- Identify services on particular hosts
+	- Extension of recon/footprinting
+		- Identify active hosts
+		- Identify open ports
+		- Identify services on particular hosts
 
 - **Enumeration**
 	- Intrusive probing to gather information
@@ -61,12 +63,12 @@ layout: md
 		- Applications
 		- Banners
 	- Involves making active connections to a target system or subjecting it to direct queries.
-	
-- **Vulnerability Analysis**
+
+- **Vulnerability Analysis
 	- Scrutinising the system or service and assessing its security measures to determine its resilience to types of attacks.
 	- Discover security weaknesses and gaps in a target network, infrastructure or endpoints. 
-	- List out potential entry points for attacks/attackers.
-	
+	- List out potential entry points for attacks/attackers.\
+
 - ##### Gaining Access:
 	- The attack/hacking phase. 
 	- Use the information collected in previous steps and use techniques, from 2 categories; *password cracking* and/or *vulnerability exploitation*, to access the target system.
@@ -74,82 +76,83 @@ layout: md
 		- System's architecture
 		- Perpetrator skill level
 		- Level of initial access required
-		
-		- **Escalating Privileges**
-			- Following initial access through a low-priv user account, attackers commonly seek out to escalate their privileges to an admin/root level.
-			- Use known system vulnerabilities.
-			- Allows undertaking of secondary operations.
-			
-- ##### Maintaining Access:
-	- **Executing Applications:**
+
+- **Escalating Privileges**
+	- Following initial access through a low-priv user account, attackers commonly seek out to escalate their privileges to an admin/root level.
+	- Use known system vulnerabilities.
+	- Allows undertaking of secondary operations.
+
+- **Maintaining Access:**
+	- ##### Executing Applications:
 		- Once admin privileges are achieved.
 		- Install malware (trojans, backdoors, rootkits, keyloggers, etc.)
 		- Achieve persistence and remote system access.
 
-	- **Hiding Files:**
+	- ##### Hiding Files:
 		- Attempt to hide evidence of malware to ensure persistence.
 
-- ##### Clearing Logs: 
-	- **Covering Tracks:**
+- **Clearing Logs:** 
+	- ##### Covering Tracks:
 		- To remain undetected, attackers can erase all evidence of the breach and system compromise.
 		- Limits evidence gathering, makes harder to identify/track malicious behaviour or the threat actor.
 		- Can modify or delete logs within the system. (Manually or with log-wiping utilities).
 
-#### Cyber Kill Chain (Lockheed Martin)
+### Cyber Kill Chain (Lockheed Martin)
 
 The model identifies what the adversaries must complete in order to achieve their objective.
-##### 1. Reconnaissance
+#### 1. Reconnaissance
 - Harvesting email addresses
 - Conference Information
 
-##### 2. Weaponization
+#### 2. Weaponization
 - Coupling exploit with backdoor into deliverable payload
 
-##### 3. Delivery
+#### 3. Delivery
 - Delivering weaponized bundle to the victim via email, web, USB, etc.
 
-##### 4. Exploitation
+#### 4. Exploitation
 - Exploiting a vulnerability to execute code on a victim's system.
 
-##### 5. Installation
+#### 5. Installation
 - Installing malware on the asset.
 
-##### 6. Command and Control (C2)
+#### 6. Command and Control (C2)
 - Command channel for remote manipulation of victim.
 
-##### 7. Actions on Objectives
+#### 7. Actions on Objectives
 - With *'Hands on Keyboard access'*, intruders accomplish their original goals.
 
-#### MITRE ATT&CK Framework
+### MITRE ATT&CK Framework
 Knowledge base of adversary tactics and techniques based on real-world observations of cyber attacks.
-
 **ATT&CK:** Adversarial Tactics, Techniques, and Common Knowledge.
 
-##### Attack Tactic:
+**Attack Tactic:**
 - Why an attack technique is used.
 - The attackers tactical goal.
 
 | Technique/Sub-technique (Action/How) | Tactic (Why)                                                                          |
 | ------------------------------------ | ------------------------------------------------------------------------------------- |
 | Reconnaissance                       | The adversary is trying to gather information they can use to plan future operations. |
-##### Attack Technique:
+**Attack Technique:**
 - Techniques represent "how" an adversary achieves a tactical goal by performing an action.
 - E.g.. *An adversary may dump credentials to achieve credential access.*
-##### Attack Sub-techniques:
+
+**Attack Sub-techniques:**
 - More specific description of the adversarial behaviour used to achieve a goal. 
 - Describe the action at a lower level than the techniques.
 - E.g..  *An adversary may dump credentials by accessing the Local Security Authority (LSA) Secrets.*
-##### Attack Procedure:
+
+**Attack Procedure:**
 - The specific implementation the adversary uses for techniques or sub-techniques.
 - E.g.. *An adversary using PowerShell to inject into lsass.exe to dump credentials by scraping LSASS memory on a victim*
 
-#### Mandiant Attack Lifecycle:
-
-![Mandiant Attack Lifecycle](Pasted image 20240715213722.png)
+### Mandiant Attack Lifecycle
 
 Kill chain model in which the weaponization stage is removed and a loop is introduced to represent the continuous activities of internal recon, lateral movement and persistence performed by attacks. 
+![[Pasted image 20240715213722.png]]
 
-#### Diamond Model of Intrusion Analysis
+
+### Diamond Model of Intrusion Analysis
 
 **Adversary:** Where are attackers from? Who are the attackers? Who is the sponsor? Why attack? What is the activity timeline and planning?
 
@@ -208,7 +211,7 @@ Threat modelling is a process used in cybersecurity to systematically identify a
 5. **Rank Threats**: Assess each threat based on its potential impact and likelihood of occurrence.
 6. **Mitigate Threats**: Develop and implement security controls to address the identified threats, such as input validation, access controls, and encryption.
 
-Microsoft STRIDE Threat Model: 
+**Microsoft STRIDE Threat Model:**
 
 - **S**poofing - pretending to be someone / something else.
 - **T**ampering - modifying something that should not be modified.
