@@ -146,7 +146,7 @@ Knowledge base of adversary tactics and techniques based on real-world observati
 
 #### Mandiant Attack Lifecycle:
 
-![Mandiant Attack Lifecycle](Pasted image 20240714234824.png)
+![Mandiant Attack Lifecycle](Pasted image 20240715213722.png)
 
 Kill chain model in which the weaponization stage is removed and a loop is introduced to represent the continuous activities of internal recon, lateral movement and persistence performed by attacks. 
 
