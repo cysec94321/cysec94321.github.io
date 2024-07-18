@@ -1,4 +1,5 @@
 ---
+title: Week 1 Notes
 layout: default
 ---
 
