@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 *SIT379 - Ethical Hacking*
 
 ---
