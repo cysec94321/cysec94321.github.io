@@ -1,8 +1,6 @@
 ---
-
 title: Week 1 Notes
 layout: md
-
 ---
 
 *SIT379 Ethical Hacking*
